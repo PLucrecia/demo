@@ -1,14 +1,35 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "tickets": [
+    {
+      "ticketID": 653,
+      "titulo": "Error al generar facturas",
+      "descripcion": "El sistema no emite facturas después de las ventas",
+      "usuarioID": 52845,
+      "estado": "abierto",
+      "fechaCreacion": "20/05/2022"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "revision": [
+    {
+      "ticketID": 653,
+      "comentariosRevision": "Revisado, falta ver el servidor de facturación.",
+      "fechaRevision": "21/05/2022",
+      "revisadoPor": "Tecnico5",
+      "estado": "en revisión"
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "soluciones": [
+    {
+      "solucionID": 548,
+      "ticketID": 653,
+      "descripcion": "Actualizar la configuración del servidor y verificar la conexión."
+    }
+  ],
+  "notificaciones": [
+    {
+      "usuarioID": 52845,
+      "ticketID": 653,
+      "mensaje": "El ticket ha sido actualizado a 'en revisión'."
+    }
+  ]
 }
